@@ -8,3 +8,4 @@
 
   roles:
     - geerlingguy.homebrew
+    - mac-config
