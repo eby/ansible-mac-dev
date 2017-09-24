@@ -80,3 +80,16 @@ dockitems_to_persist:
   - name: Sequel Pro
     path: "/Applications/Sequel Pro.app"
     pos: 5
+
+mas_installed_apps:
+  - {id: 409907375, name: "Remote Desktop"}
+  - {id: 405399194, name: "Kindle"}
+  - {id: 600925318, name: "Parallels Client"}
+  - {id: 451907568, name: "Paprika Recipe Manager"}
+  - {id: 407963104, name: "Pixelmator"}
+  - {id: 557168941, name: "Tweetbot"}
+  - {id: 975937182, name: "Fantastical 2"}
+  - {id: 880001334, name: "Reeder"}
+  - {id: 1055273043, name: "PDF Expert"}
+  - {id: 715768417, name: "Microsoft Remote Desktop"}
+  - {id: 1176895641, name: "Spark"}
