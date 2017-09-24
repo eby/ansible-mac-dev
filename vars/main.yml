@@ -16,6 +16,7 @@ homebrew_installed_packages:
   - php71-imagick
   - phpunit
   - sqlite
+  - sshfs
   - wget
   - yarn
 
@@ -29,6 +30,7 @@ homebrew_cask_apps:
   - 1password
   - alfred
   - apache-couchdb
+  - dash
   - docker
   - firefox
   - google-chrome
@@ -37,7 +39,6 @@ homebrew_cask_apps:
   - sequel-pro
   - skype
   - spotify
-  - sshfs
   - sublime-text
   - transmission
   - unetbootin
