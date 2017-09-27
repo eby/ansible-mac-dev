@@ -103,3 +103,7 @@ defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 
 # Disable natural scrolling
 defaults write -g com.apple.swipescrolldirection -bool false
+
+# Set fliqlo as the screensaver
+defaults -currentHost write com.apple.screensaver moduleDict -dict moduleName \"Fliqlo\" path \"/Users/ebyr/Library/Screen\ Savers/Fliqlo.saver\" type 0
+killall cfprefsd

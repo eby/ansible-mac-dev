@@ -7,7 +7,7 @@ homebrew_installed_packages:
   - git-extras
   - hub
   - httpie
-  - imagemagick
+  - imagemagickbrew 
   - mariadb
   - npm
   - php-code-sniffer
@@ -32,6 +32,7 @@ homebrew_cask_apps:
   - dash
   - docker
   - firefox
+  - fliqlo
   - google-chrome
   - iterm2
   - sequel-pro
