@@ -30,6 +30,7 @@ homebrew_cask_apps:
   - alfred
   - amazon-drive
   - apache-couchdb
+  - battle-net
   - dash
   - docker
   - firefox
@@ -39,6 +40,7 @@ homebrew_cask_apps:
   - sequel-pro
   - skype
   - spotify
+  - steam
   - sublime-text
   - transmission
   - unetbootin
