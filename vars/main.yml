@@ -21,6 +21,7 @@ homebrew_installed_packages:
 
 homebrew_taps:
   - caskroom/cask
+  - caskroom/fonts
   - caskroom/versions
   - homebrew/php
 
@@ -35,6 +36,9 @@ homebrew_cask_apps:
   - docker
   - firefox
   - fliqlo
+  - font-anonymous-pro
+  - font-inconsolata
+  - font-roboto-mono
   - google-chrome
   - iterm2
   - sequel-pro
