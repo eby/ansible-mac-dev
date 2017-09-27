@@ -16,7 +16,6 @@ homebrew_installed_packages:
   - php71-imagick
   - phpunit
   - sqlite
-  - sshfs
   - wget
   - yarn
 
@@ -35,7 +34,6 @@ homebrew_cask_apps:
   - firefox
   - google-chrome
   - iterm2
-  - osxfuse
   - sequel-pro
   - skype
   - spotify
