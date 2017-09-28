@@ -104,10 +104,18 @@ defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 # Disable natural scrolling
 defaults write -g com.apple.swipescrolldirection -bool false
 
+# Display Date next to Clock
+defaults write com.apple.menuextra.clock DateFormat -string "d MMM  h:mm a"
+
+# Display Bluetooth and Volume in menu bar
+open '/System/Library/CoreServices/Menu Extras/Volume.menu'
+open '/System/Library/CoreServices/Menu Extras/Bluetooth.menu'
+
 # Set fliqlo as the screensaver
 defaults -currentHost write com.apple.screensaver moduleDict -dict moduleName \"Fliqlo\" path \"/Users/ebyr/Library/Screen\ Savers/Fliqlo.saver\" type 0
 defaults -currentHost write com.apple.screensaver idleTime -int 600
 killall cfprefsd
+killall SystemUIServer
 
 # Disable display sleep
 sudo pmset displaysleep 0
