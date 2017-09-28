@@ -104,8 +104,9 @@ defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 # Disable natural scrolling
 defaults write -g com.apple.swipescrolldirection -bool false
 
-# Set default search domain in DNS to aadl.org
+# Set default search domain in DNS to aadl.org and other network stuff
 networksetup -setsearchdomains Wi-Fi aadl.org
+networksetup -setcomputername ebymacbook
 
 # Display Date next to Clock
 defaults write com.apple.menuextra.clock DateFormat -string "d MMM  h:mm a"
