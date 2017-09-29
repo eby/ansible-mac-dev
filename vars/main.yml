@@ -1,6 +1,7 @@
 ---
 homebrew_install_path: /usr/local/homebrew
 homebrew_installed_packages:
+  - ansible-lint
   - composer
   - dockutil
   - git
@@ -39,6 +40,7 @@ homebrew_cask_apps:
   - font-anonymous-pro
   - font-inconsolata
   - font-roboto-mono
+  - gitscout
   - google-chrome
   - iterm2
   - sequel-pro
@@ -103,3 +105,4 @@ mas_installed_apps:
   - {id: 715768417, name: "Microsoft Remote Desktop"}
   - {id: 1176895641, name: "Spark"}
   - {id: 1091189122, name: "Bear"}
+  - {id: 993487541, name: "CARROT Weather"}
