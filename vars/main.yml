@@ -52,6 +52,7 @@ homebrew_cask_apps:
   - unetbootin
   - vagrant
   - virtualbox
+  - vlc
   - vnc-viewer
 
 dockitems_to_remove:
