@@ -2,19 +2,29 @@
 homebrew_install_path: /usr/local/homebrew
 homebrew_installed_packages:
   - ansible-lint
+  - awscli
   - composer
+  - docker-clean
   - dockutil
+  - drush-launcher
+  - ffmpeg
   - git
   - git-extras
+  - go
   - hub
   - httpie
-  - imagemagickbrew 
+  - imagemagick
   - mariadb
-  - npm
+  - mas
+  - nginx
+  - nmap
+  - node
+  - packer
   - php-code-sniffer
   - php-cs-fixer
   - php71
   - php71-imagick
+  - php72
   - phpunit
   - sqlite
   - wget
@@ -32,19 +42,27 @@ homebrew_cask_apps:
   - alfred
   - amazon-drive
   - apache-couchdb
+  - arq
   - battle-net
   - dash
   - docker
   - firefox
   - fliqlo
   - font-anonymous-pro
+  - font-hack
   - font-inconsolata
+  - font-monoid
   - font-roboto-mono
+  - font-source-code-pro
+  - github-desktop
   - gitscout
   - google-chrome
+  - grammarly
   - iterm2
+  - mailmate
   - sequel-pro
   - skype
+  - soundflower
   - spotify
   - steam
   - sublime-text
@@ -97,9 +115,9 @@ mas_installed_apps:
   - {id: 409907375, name: "Remote Desktop"}
   - {id: 405399194, name: "Kindle"}
   - {id: 600925318, name: "Parallels Client"}
-  - {id: 451907568, name: "Paprika Recipe Manager"}
+  - {id: 1303222628, name: "Paprika Recipe Manager 3"}
   - {id: 407963104, name: "Pixelmator"}
-  - {id: 557168941, name: "Tweetbot"}
+  - {id: 1384080005, name: "Tweetbot"}
   - {id: 975937182, name: "Fantastical 2"}
   - {id: 880001334, name: "Reeder"}
   - {id: 1055273043, name: "PDF Expert"}
@@ -108,3 +126,4 @@ mas_installed_apps:
   - {id: 1091189122, name: "Bear"}
   - {id: 993487541, name: "CARROT Weather"}
   - {id: 409201541, name: "Pages"}
+  - {id: 1233048948, name: "Boom 3D"}
